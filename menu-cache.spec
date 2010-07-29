@@ -5,7 +5,7 @@ Version:	0.3.2
 Release:	1
 License:	GPL v2
 Group:		Libraries
-Source0:	http://dl.sourceforge.net/lxde/%{name}-%{version}.tar.gz
+Source0:	http://downloads.sourceforge.net/lxde/%{name}-%{version}.tar.gz
 # Source0-md5:	ac4a9ea77db68d3db3f9f53cc75af66a
 URL:		http://www.lxde.org/
 BuildRequires:	glib2-devel
@@ -16,13 +16,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Libmenu-cache is a library creating and utilizing caches to speed up
-the manipulation for freedesktop.org defined application menus.
-It can be used as a replacement of libgnome-menu of gnome-menus.
+the manipulation for freedesktop.org defined application menus. It can
+be used as a replacement of libgnome-menu of gnome-menus.
 
 %description -l pl.UTF-8
-Libmenu-cache jest biblioteką do tworzenia i używania buforów (caches),
-które przyspieszają wczytywanie i zapisywanie menu zgodnego z freedesktop.org.
-Libmenu-cache może zastępować libgnome-menu.
+Libmenu-cache jest biblioteką do tworzenia i używania buforów
+(caches), które przyspieszają wczytywanie i zapisywanie menu zgodnego
+z freedesktop.org. Libmenu-cache może zastępować libgnome-menu.
 
 %package devel
 Summary:	Header files and libraries for menu-cache development
@@ -32,16 +32,16 @@ Requires:	%{name} = %{epoch}:%{version}-%{release}
 
 %description devel
 Libmenu-cache is a library creating and utilizing caches to speed up
-the manipulation for freedesktop.org defined application menus.
-It can be used as a replacement of libgnome-menu of gnome-menus.
+the manipulation for freedesktop.org defined application menus. It can
+be used as a replacement of libgnome-menu of gnome-menus.
 
 This package contains the header files needed to develop programs that
 use these menu-cache.
 
 %description devel -l pl.UTF-8
-Libmenu-cache jest biblioteką do tworzenia i używania buforów (caches),
-które przyspieszają wczytywanie i zapisywanie menu zgodnego z freedesktop.org.
-Libmenu-cache może zastępować libgnome-menu.
+Libmenu-cache jest biblioteką do tworzenia i używania buforów
+(caches), które przyspieszają wczytywanie i zapisywanie menu zgodnego
+z freedesktop.org. Libmenu-cache może zastępować libgnome-menu.
 
 Pakiet ten zawiera pliki nagłowkowe i dokumentację potrzebną przy
 tworzeniu własnych programów wykorzystujących menu-cache.
@@ -54,16 +54,16 @@ Requires:	%{name}-devel = %{epoch}:%{version}-%{release}
 
 %description static
 Libmenu-cache is a library creating and utilizing caches to speed up
-the manipulation for freedesktop.org defined application menus.
-It can be used as a replacement of libgnome-menu of gnome-menus.
+the manipulation for freedesktop.org defined application menus. It can
+be used as a replacement of libgnome-menu of gnome-menus.
 
 This package contains the header files and libraries needed to develop
 programs that use these menu-cache.
 
 %description static -l pl.UTF-8
-Libmenu-cache jest biblioteką do tworzenia i używania buforów (caches),
-które przyspieszają wczytywanie i zapisywanie menu zgodnego z freedesktop.org.
-Libmenu-cache może zastępować libgnome-menu.
+Libmenu-cache jest biblioteką do tworzenia i używania buforów
+(caches), które przyspieszają wczytywanie i zapisywanie menu zgodnego
+z freedesktop.org. Libmenu-cache może zastępować libgnome-menu.
 
 Pakiet ten zawiera bibliotekę statyczną potrzebną przy tworzeniu
 własnych programów wykorzystujących menu-cache.
