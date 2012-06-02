@@ -1,12 +1,12 @@
 Summary:	Library for caching freedesktop defined application menus
 Summary(pl.UTF-8):	Biblioteka do buforowania menu freedesktop.org
 Name:		menu-cache
-Version:	0.3.2
+Version:	0.3.3
 Release:	1
 License:	GPL v2
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/lxde/%{name}-%{version}.tar.gz
-# Source0-md5:	ac4a9ea77db68d3db3f9f53cc75af66a
+# Source0-md5:	a14b0b162cd64d56c16bf6af16f3a47f
 URL:		http://www.lxde.org/
 BuildRequires:	glib2-devel
 BuildRequires:	libtool
